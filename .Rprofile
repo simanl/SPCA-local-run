@@ -3,7 +3,7 @@ Sys.setenv("SPCA_HOME" = normalizePath(getwd()))
 
 .First <- function(){
   
-  if(.Platform$OS.type == "windows") options(encoding = "utf-8")
+  #if(.Platform$OS.type == "windows") options(encoding = "utf-8")
   
   SPCA_HOME <- Sys.getenv("SPCA_HOME")
   
